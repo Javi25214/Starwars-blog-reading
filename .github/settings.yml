@@ -1,7 +1,6 @@
 repository:
   has_wiki: false
 
-# Labels: define labels for Issues and Pull Requests
 labels:
   - name: "bug"
     color: c10000
