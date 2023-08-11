@@ -3,11 +3,8 @@ ports:
       onOpen: open-browser
 tasks:
     - init: >
+        npm i vercel -g &&
         npm install &&
         cp .env.example .env
       command: >
-        python docs/assets/greeting.py
-
-vscode:
-  extensions:
-    - esbenp.prettier-vscode
+        npm i vercel -g

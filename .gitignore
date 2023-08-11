@@ -4,7 +4,6 @@
 # track this file .gitignore (i.e. do NOT ignore it)
 !.gitignore
 !.github
-!.vscode
 php_errorlog
 .log
 
@@ -57,8 +56,6 @@ public/
 
 # ignore the dist directory were our bundle files are going to be
 !.gitkeep
-!.devcontainer
-!.devcontainer/*
 !.gitpod.yml
 !.htaccess
 !.eslintrc
